@@ -4,19 +4,19 @@ namespace Ex2
 {
     internal class Program
     {
-        private static void SearchWord()
+        private static void Search()
         {
             string str;
-            string wordS;
+            string word;
             int count = 0;
             Console.WriteLine("Enter a string ");
             str = Console.ReadLine();
             Console.WriteLine("Enter a word to search ");
-            wordS = Console.ReadLine();
+            word = Console.ReadLine();
             string[] c = str.Split();
             for (int i = 0; i < c.Length; i++)
             {
-                if (wordS != null && wordS.Equals(c[i]))
+                if (word != null && word.Equals(c[i]))
                 {
                     count++;
                 }
@@ -34,7 +34,7 @@ namespace Ex2
 
         public static void Main(string[] args)
         {
-            SearchWord();
+            Search();
         }
     }
 }
