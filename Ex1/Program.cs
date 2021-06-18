@@ -4,15 +4,13 @@ namespace Exam_AP
 {
     internal class Program
     {
-        public static void Main(string[] args)
+      public static void Main(string[] args)
         {
             Person person = new Person();
-            person.Name = "Armar";
+            person.Name = "Anar";
             person.Age = 40;
-            Console.WriteLine("Person details - {0}", person);
-            
-            person.Age += 1;
-            Console.WriteLine("Person details ( After increnenting age ) - {0}", person);
+            Console.WriteLine("Person deatails - Name = " +person.Name+", Age = "+person.Age);
+            Console.WriteLine("Person deatails (After incrementing age) - Name = " +person.Name+", Age = "+(person.Age+1));
         }
     }
 }
