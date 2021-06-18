@@ -12,7 +12,7 @@ namespace Exam_AP
             Console.WriteLine("Person details - {0}", person);
             
             person.Age += 1;
-            Console.WriteLine("Person details - {0}", person);
+            Console.WriteLine("Person details ( After increnenting age ) - {0}", person);
         }
     }
 }
